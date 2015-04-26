@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "coffeeify": "git://github.com/jnordberg/coffeeify",
     "uniq": "^1.0.1"
   }
 }
