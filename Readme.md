@@ -1,6 +1,31 @@
-how to use browserify
+### Smallest setup for browserify (js frontend bundling) and coffeescript 
+##### (.coffee files are compiled via coffeeify)
 
-http://browserify.org/
+Browserify Website:
+http://browserify.org
+
+Npm module page:
+https://www.npmjs.com/package/browserify
+
+Plugins/Forks:
+https://www.npmjs.com/search?q=browserify
+
+#### Installation
+
+```sh
+npm install browserify -g
+```
+
+with coffeescript support:
+
+```sh
+npm install browserify coffeeify -g
+```
 
 
-   browserify index.js -o bundle.js
+#### Usage
+
+```sh
+browserify -t coffeeify index.js -o bundle.js
+```
+
